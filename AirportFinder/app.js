@@ -4,8 +4,8 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 
-Airport = require('./mongooseModels/airport');
-State = require('./mongooseModels/state');
+Airport = require('./mongooseModels/airport'); //getting the aiport database
+State = require('./mongooseModels/state');      //getting the state database
 
 const app = express();    //app variable
 const port = 3000;        //port number
